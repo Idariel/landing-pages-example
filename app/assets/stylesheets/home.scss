@@ -1,0 +1,60 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// HOME
+// ====
+html, css{
+  margin: 0;
+  padding: 0;
+}
+.div_center{
+  margin: 0 30%;
+}
+h1{
+  font-family: comic-sans, cursive;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+#conteneur{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#conteneur a:hover{
+  background-color: purple;
+}
+.button{
+  width: 120px;
+  height: 30px;
+  margin: 10px 20px;
+  padding: 15px 10px 10px 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+.bg-orange{
+  background-color: orange;
+}
+.bg-red{
+  background-color: red;
+}
+.bg-blue{
+  background-color: blue;
+}
+
+// CHECKR
+// ======
+
+
+// FLYNN
+// ======
+
+
+// SPARKS
+// ======
