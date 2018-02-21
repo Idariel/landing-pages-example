@@ -63,16 +63,26 @@ h1{
   color: #FFFFFF;
   font-family: sans-serif;
 }
-#banner-checkr{
+#banner-checkr1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 10%;
+}
+#banner-checkr2{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 10%;
+  align-items: center;
+
+  margin: 0px 10%;
 }
 #header-checkr{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .element1{
   font-family: sans-serif;
@@ -80,18 +90,43 @@ h1{
   font-variant: small-caps;
   font-weight: bold;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.element1:hover, .element2:hover{
+  color: #CCCCCC;
+}
+.menu-deroulant{
+  display: none;
+  overflow:hidden
+}
+.menu-deroulant:hover{
+  display: inline-block;
 }
 #register-checkr{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-#infos-checkr{
-  display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+}
+.button1{
+  background-color: transparent;
+  border: none;
+}
+.button2{
+  background-color: transparent;
+  width: 200px;
+  height: 50px;
+  padding: 15px 10px 10px 10px;
+  text-align: center;
+  color: rgb(224, 190, 45);
+  border: 2px solid rgb(224, 190, 45);
+  border-radius: 5px;
+
+}
+.button2:hover{
+  background-color: rgb(224, 190, 45);
+  color: #000000;
 }
 .element2{
   font-family: sans-serif;
@@ -99,10 +134,6 @@ h1{
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-}
-#log-checkr{
-  display: flex;
-  flex-direction: row;
 }
 .modif1{
   font-family: sans-serif;
@@ -113,7 +144,7 @@ h1{
   color: white;
 }
 #main-checkr{
-  margin: 10px 10%;
+  margin: 22px 10% 0px 10%;
   display: flex;
   flex-direction: row;
 }
@@ -145,6 +176,20 @@ h1{
   color: #000000;
   border: none;
   border-radius: 5px;
+}
+h2{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+#main-checkr2{
+  background-color: white;
+}
+#main-checkr3{
+  background-color: #DDDDDD;
+  border-top: solid #CCCCCC 2px;
 }
 
 
